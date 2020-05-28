@@ -1,0 +1,63 @@
+.icon{
+    vertical-align: middle;
+}
+.half{
+    position: relative;
+    float: left;
+    padding: 10px;
+}
+    @media screen and (max-width: 1680px) {
+        .half {
+            width: 50%;
+        }
+
+    }
+    @media screen and (max-width: 736px) {
+        .half {
+            width: 100%;
+        }
+
+    }
+
+.fourth{
+    position: relative;
+    float: left;
+}
+    @media screen and (max-width: 1680px) {
+        .fourth {
+            width: 25%;
+            padding : 5px;
+        }
+
+    }
+    @media screen and (max-width: 736px) {
+        .fourth {
+            width: 50%;
+            padding : 2px;
+        }
+    }
+
+
+.label-default {
+    background-color: #777;
+}
+
+/*labels.less:10*/
+.label {
+    display: inline;
+    padding: .2em .5em .3em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .5em;
+}
+img.technology_logo{
+    vertical-align: middle;
+}
+
+.work_title{
+    margin: 1.5rem 0 0 0;
+}
